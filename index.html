@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stella Wu, Bachelor of Information student and undergraduate research contributor at the University of Toronto.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Stella Wu</title>
+  <style>
+    :root {
+      --navy: #12345a;
+      --blue: #1b5491;
+      --light-blue: #d8e7f6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      width: min(42rem, calc(100% - 2.5rem));
+      margin: clamp(2rem, 8vw, 5rem) auto;
+      color: #243850;
+      background: #fff;
+      font: 1rem/1.6 system-ui, sans-serif;
+      overflow-wrap: break-word;
+    }
+    h1, h2, h3, p { margin: 0; }
+    h1 { font-size: 2.5rem; line-height: 1.2; letter-spacing: -.035em; color: var(--navy); }
+    h2 { font-size: 1.25rem; margin-bottom: .8rem; color: var(--blue); }
+    h3 { font-size: 1rem; color: var(--navy); }
+    .affiliation, .role { color: #4b617c; }
+    .affiliation { margin-top: .4rem; }
+    .role { font-size: .9rem; }
+    .intro, .links { margin-top: .85rem; }
+    .links { display: flex; flex-wrap: wrap; gap: .25rem 1.15rem; }
+    a { color: var(--blue); text-underline-offset: .18em; }
+    a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+    section { border-top: 1px solid var(--light-blue); margin-top: 1.75rem; padding-top: 1.25rem; }
+    ul { margin: .3rem 0 0; padding-inline-start: 1.25rem; }
+    li + li { margin-top: .2rem; }
+    li::marker { color: var(--blue); }
+    article + article { margin-top: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Stella Wu</h1>
+    <p class="affiliation">Bachelor of Information student, University of Toronto</p>
+    <p class="intro">I’m interested in building and testing AI models for workplace problems, including whether classifiers can extract information reliably and flag uncertain results for human review.</p>
+    <nav class="links" aria-label="Contact">
+      <a href="mailto:stellawqm.wu@mail.utoronto.ca">Email</a>
+      <a href="https://www.linkedin.com/in/stew725/">LinkedIn</a>
+    </nav>
+  </header>
+  <main>
+    <section aria-labelledby="research">
+      <h2 id="research">Research</h2>
+      <article>
+        <h3>Human-Centred Data Science Lab, University of Toronto</h3>
+        <p class="role">Undergraduate Research Contributor</p>
+        <ul>
+          <li>Annotate unstructured case notes to support classification research.</li>
+          <li>Apply a shared taxonomy to distinguish completed interventions from planned support.</li>
+          <li>Review ambiguous cases with the team and document the evidence behind label decisions.</li>
+        </ul>
+      </article>
+    </section>
+    <section aria-labelledby="projects">
+      <h2 id="projects">Selected projects</h2>
+      <article>
+        <h3>Password Safety Checker</h3>
+        <p>Wrote Python checks for common passwords, patterns, length, and character types to support the team’s scoring and feedback components.</p>
+      </article>
+      <article>
+        <h3>Budget Manager</h3>
+        <p>Built and documented a Python budgeting program for the INF452 midterm project.</p>
+      </article>
+    </section>
+    <section aria-labelledby="experience">
+      <h2 id="experience">Experience</h2>
+      <article>
+        <h3>Catholic Children’s Aid Society of Toronto</h3>
+        <ul>
+          <li>Supported recruitment workflows and maintained confidential HR records.</li>
+          <li>Tracked HR–IT access requests for onboarding and offboarding.</li>
+          <li>Flagged issues in Microsoft 365 Copilot results for access review.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Western International</h3>
+        <ul>
+          <li>Guided students to program information and resources.</li>
+          <li>Coordinated content updates across teams.</li>
+        </ul>
+      </article>
+    </section>
+    <section aria-labelledby="education">
+      <h2 id="education">Education</h2>
+      <article>
+        <h3>University of Toronto</h3>
+        <p>Bachelor of Information, expected April 2028.</p>
+      </article>
+      <article>
+        <h3>Western University</h3>
+        <p>Economics coursework, including econometrics and mathematics, 2024–2026.</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
